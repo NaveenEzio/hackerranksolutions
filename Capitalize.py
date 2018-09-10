@@ -11,5 +11,6 @@ def solve(s):
  
 
 def solve(s):
-    c=(" ".join((s.capitalize() for s in s.strip().split(" "))))
+    c=(" ".join((s.capitalize() for s in s.strip().split(" "))))    
+    #White space remove & splited.Finally Joined using space with capitalizing each word
     return c
